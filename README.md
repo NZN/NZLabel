@@ -23,7 +23,7 @@ You will need LLVM 3.0 or later in order to build NZLabel.
 
 [CocoaPods](http://cocoapods.org) is the recommended way to add NZLabel to your project.
 
-* Add a pod entry for NZLabel to your Podfile `pod 'NZLabel', :git => 'https://github.com/NZN/NZLabel'`
+* Add a pod entry for NZLabel to your Podfile `pod 'NZLabel', '~> 0.0.1'`
 * Install the pod(s) by running `pod install`.
 
 ### Source files
