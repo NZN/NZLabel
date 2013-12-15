@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F872531B185E1EAE001CDFEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F872531A185E1EAE001CDFEE /* Foundation.framework */; };
+		F872531D185E1EAE001CDFEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F872531C185E1EAE001CDFEE /* CoreGraphics.framework */; };
+		F872531F185E1EAE001CDFEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F872531E185E1EAE001CDFEE /* UIKit.framework */; };
+		F8725371185E1FB8001CDFEE /* NZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8725364185E1FB8001CDFEE /* NZViewController.m */; };
+		F8725372185E1FB8001CDFEE /* NZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8725366185E1FB8001CDFEE /* NZAppDelegate.m */; };
+		F8725373185E1FB8001CDFEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8725368185E1FB8001CDFEE /* Main.storyboard */; };
+		F8725374185E1FB8001CDFEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F872536A185E1FB8001CDFEE /* Images.xcassets */; };
+		F8725375185E1FB8001CDFEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F872536C185E1FB8001CDFEE /* InfoPlist.strings */; };
+		F8725376185E1FB8001CDFEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F872536E185E1FB8001CDFEE /* main.m */; };
+		F872537B185E2020001CDFEE /* NZLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F872537A185E2020001CDFEE /* NZLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8725317185E1EAE001CDFEE /* NZLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NZLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F872531A185E1EAE001CDFEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F872531C185E1EAE001CDFEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F872531E185E1EAE001CDFEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8725339185E1EAF001CDFEE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F8725363185E1FB8001CDFEE /* NZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NZViewController.h; sourceTree = "<group>"; };
+		F8725364185E1FB8001CDFEE /* NZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NZViewController.m; sourceTree = "<group>"; };
+		F8725365185E1FB8001CDFEE /* NZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NZAppDelegate.h; sourceTree = "<group>"; };
+		F8725366185E1FB8001CDFEE /* NZAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NZAppDelegate.m; sourceTree = "<group>"; };
+		F8725369185E1FB8001CDFEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F872536A185E1FB8001CDFEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F872536D185E1FB8001CDFEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F872536E185E1FB8001CDFEE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F872536F185E1FB8001CDFEE /* NZLabel-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NZLabel-Info.plist"; sourceTree = "<group>"; };
+		F8725370185E1FB8001CDFEE /* NZLabel-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NZLabel-Prefix.pch"; sourceTree = "<group>"; };
+		F8725379185E2020001CDFEE /* NZLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NZLabel.h; sourceTree = "<group>"; };
+		F872537A185E2020001CDFEE /* NZLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NZLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8725314185E1EAE001CDFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F872531D185E1EAE001CDFEE /* CoreGraphics.framework in Frameworks */,
+				F872531F185E1EAE001CDFEE /* UIKit.framework in Frameworks */,
+				F872531B185E1EAE001CDFEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F872530E185E1EAE001CDFEE = {
+			isa = PBXGroup;
+			children = (
+				F8725360185E1FB8001CDFEE /* Example */,
+				F8725319185E1EAE001CDFEE /* Frameworks */,
+				F8725378185E1FC2001CDFEE /* NZLabel */,
+				F8725318185E1EAE001CDFEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8725318185E1EAE001CDFEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8725317185E1EAE001CDFEE /* NZLabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8725319185E1EAE001CDFEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F872531A185E1EAE001CDFEE /* Foundation.framework */,
+				F872531C185E1EAE001CDFEE /* CoreGraphics.framework */,
+				F872531E185E1EAE001CDFEE /* UIKit.framework */,
+				F8725339185E1EAF001CDFEE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8725360185E1FB8001CDFEE /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				F8725361185E1FB8001CDFEE /* Classes */,
+				F872536A185E1FB8001CDFEE /* Images.xcassets */,
+				F872536B185E1FB8001CDFEE /* SupportingFiles */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		F8725361185E1FB8001CDFEE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F8725365185E1FB8001CDFEE /* NZAppDelegate.h */,
+				F8725366185E1FB8001CDFEE /* NZAppDelegate.m */,
+				F8725362185E1FB8001CDFEE /* Controllers */,
+				F8725367185E1FB8001CDFEE /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F8725362185E1FB8001CDFEE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F8725363185E1FB8001CDFEE /* NZViewController.h */,
+				F8725364185E1FB8001CDFEE /* NZViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F8725367185E1FB8001CDFEE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8725368185E1FB8001CDFEE /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F872536B185E1FB8001CDFEE /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F872536C185E1FB8001CDFEE /* InfoPlist.strings */,
+				F872536E185E1FB8001CDFEE /* main.m */,
+				F872536F185E1FB8001CDFEE /* NZLabel-Info.plist */,
+				F8725370185E1FB8001CDFEE /* NZLabel-Prefix.pch */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F8725378185E1FC2001CDFEE /* NZLabel */ = {
+			isa = PBXGroup;
+			children = (
+				F8725379185E2020001CDFEE /* NZLabel.h */,
+				F872537A185E2020001CDFEE /* NZLabel.m */,
+			);
+			path = NZLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8725316185E1EAE001CDFEE /* NZLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8725349185E1EAF001CDFEE /* Build configuration list for PBXNativeTarget "NZLabel" */;
+			buildPhases = (
+				F8725313185E1EAE001CDFEE /* Sources */,
+				F8725314185E1EAE001CDFEE /* Frameworks */,
+				F8725315185E1EAE001CDFEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NZLabel;
+			productName = NZLabel;
+			productReference = F8725317185E1EAE001CDFEE /* NZLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F872530F185E1EAE001CDFEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NZ;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "No Zebra Network";
+			};
+			buildConfigurationList = F8725312185E1EAE001CDFEE /* Build configuration list for PBXProject "NZLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F872530E185E1EAE001CDFEE;
+			productRefGroup = F8725318185E1EAE001CDFEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8725316185E1EAE001CDFEE /* NZLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8725315185E1EAE001CDFEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8725373185E1FB8001CDFEE /* Main.storyboard in Resources */,
+				F8725375185E1FB8001CDFEE /* InfoPlist.strings in Resources */,
+				F8725374185E1FB8001CDFEE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8725313185E1EAE001CDFEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F872537B185E2020001CDFEE /* NZLabel.m in Sources */,
+				F8725372185E1FB8001CDFEE /* NZAppDelegate.m in Sources */,
+				F8725376185E1FB8001CDFEE /* main.m in Sources */,
+				F8725371185E1FB8001CDFEE /* NZViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8725368185E1FB8001CDFEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8725369185E1FB8001CDFEE /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F872536C185E1FB8001CDFEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F872536D185E1FB8001CDFEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8725347185E1EAF001CDFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8725348185E1EAF001CDFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F872534A185E1EAF001CDFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/SupportingFiles/NZLabel-Prefix.pch";
+				INFOPLIST_FILE = "Example/SupportingFiles/NZLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F872534B185E1EAF001CDFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/SupportingFiles/NZLabel-Prefix.pch";
+				INFOPLIST_FILE = "Example/SupportingFiles/NZLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8725312185E1EAE001CDFEE /* Build configuration list for PBXProject "NZLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8725347185E1EAF001CDFEE /* Debug */,
+				F8725348185E1EAF001CDFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8725349185E1EAF001CDFEE /* Build configuration list for PBXNativeTarget "NZLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F872534A185E1EAF001CDFEE /* Debug */,
+				F872534B185E1EAF001CDFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F872530F185E1EAE001CDFEE /* Project object */;
+}
