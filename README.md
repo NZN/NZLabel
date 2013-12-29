@@ -1,4 +1,4 @@
-#NZLabel
+#NZLabel ![License MIT](https://go-shields.herokuapp.com/license-MIT-blue.png)
 
 UILabel with multiple fonts and colors.
 
