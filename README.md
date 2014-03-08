@@ -9,6 +9,7 @@ UILabel with multiple fonts and colors.
 [![Build Status](https://api.travis-ci.org/NZN/NZLabel.png)](https://api.travis-ci.org/NZN/NZLabel.png)
 [![Cocoapods](https://cocoapod-badges.herokuapp.com/v/NZLabel/badge.png)](http://beta.cocoapods.org/?q=name%3Anzlabel%2A)
 [![Cocoapods](https://cocoapod-badges.herokuapp.com/p/NZLabel/badge.png)](http://beta.cocoapods.org/?q=name%3Anzlabel%2A)
+[![Analytics](https://ga-beacon.appspot.com/UA-48753665-1/NZN/NZLabel/README.md)](https://github.com/igrigorik/ga-beacon)
 
 ## Requirements
 
